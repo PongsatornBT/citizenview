@@ -1,0 +1,80 @@
+.container {
+    background-color: #F0F0F0;
+    width: 90%;
+    border-radius: 30px;
+    margin: auto;
+    /* margin-left: 1%; */
+    margin-top: 1%;
+    padding: 15px 0 15px 0;
+    padding: 2%;
+}
+
+
+.card-container {
+    display: flex;
+}
+
+.card {
+    width: 25%;
+    height: 10rem;
+    /* background-color: #A4C4B5; */
+    background: -webkit-linear-gradient(top left, #A4C4B5 0%, #C3EAD8 100%);
+    font-family: 'Prompt', sans-serif;
+    margin-right: 2%;
+    padding: 2%;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.card i {
+    font-size: 1.6rem;
+    color: #707070;
+}
+
+.card h3 {
+    font-size: 1.2rem;
+}
+
+.card p {
+    font-size: 2.2rem;
+}
+
+.chart {
+    display: flex;
+}
+
+.chart hr {
+    margin-bottom: 3%;
+}
+
+.pie {
+    background-color: #fff;
+    margin-top: 2%;
+    border-radius: 30px;
+    padding: 15px;
+    width: 35%;
+    height: 30%;
+}
+
+.bar-x,
+.bar-y {
+    background-color: #fff;
+    margin-top: 2%;
+    border-radius: 30px;
+    padding: 15px;
+    width: 60%;
+}
+
+.bar-y {
+    width: 97%;
+}
+
+.pivot {
+    background-color: #fff;
+    margin-top: 2%;
+    border-radius: 30px;
+    padding: 15px;
+    overflow: scroll;
+    /* width: 1200px; */
+    /* width: 100%; */
+}

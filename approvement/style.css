@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 120%;
+    background: #A4C4B5;
+    font-family: 'Prompt', sans-serif;
+}
+
+.container-login {
+    margin: auto;
+    margin-top: 15%;
+    display: flex;
+    height: 55vh;
+    max-width: 40%;
+}
+
+.login-box {
+    width: 100%;
+    border-radius: 20px;
+    background: #ffffff;
+}
+
+.user-logo {
+    position: relative;
+    width: 13vw;
+    height: 13vw;
+    top: -25%;
+    border-radius: 100%;
+    background: #ffffff;
+    margin: auto;
+    margin-bottom: -25%;
+    text-align: center;
+}
+
+.title-login {
+    font-size: 160%;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.input-group {
+    position: relative;
+    margin-left: 15%;
+}
+
+.input-group label {
+    font-size: 80%;
+    margin-left: 2%;
+}
+
+.input-group input {
+    width: 80%;
+    height: 40px;
+    font-size: 16px;
+    color: black;
+    padding: 0 10px;
+    background: transparent;
+    border: 1.2px solid rgba(0, 0, 0, 0.2);
+    outline: none;
+    border-radius: 15px;
+}
+
+.input-group button {
+    text-align: center;
+}
+
+.login {
+    margin: 5% 0 5% 25%;
+    padding: 12px 40px 12px 40px;
+    font-size: 16px;
+    color: white;
+    background: #4B4B4B;
+    border: none;
+    border-radius: 15px;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.fa-eye {
+    margin-left: -42px;
+    cursor: pointer;
+    color: rgb(185, 185, 185);
+}
+
+.fa-user-alt {
+    margin-top: 20%;
+    font-size: 7vw;
+    background: -webkit-linear-gradient(top, #A4C4B5 0%, #C3EAD8 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.login:hover,
+.login:focus,
+.login:active {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+}
+
+@media screen and (max-width: 1100px) {
+    .container-login {
+        margin-top: 20%;
+        max-width: 60%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .container-login {
+        margin-top: 35%;
+        max-width: 80%;
+    }
+
+    .user-logo {
+        width: 24vw;
+        height: 24vw;
+        top: -20%;
+    }
+
+    .fa-user-alt {
+        margin-top: 20%;
+        font-size: 12vw;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .container-login {
+        margin-top: 55%;
+        max-width: 90%;
+    }
+
+    .login {
+        margin: 5% 0 5% 15%;
+    }
+
+    .user-logo {
+        width: 30vw;
+        height: 30vw;
+        top: -20%;
+        margin-bottom: -30%;
+    }
+}
+
+@media screen and (min-height: 1150px) {
+    .user-logo {
+        top: -10%;
+    }
+}
+
+@media screen and (max-height: 420px) {
+    .container-login {
+        height: 30%;
+        margin-top: 5%;
+    }
+}

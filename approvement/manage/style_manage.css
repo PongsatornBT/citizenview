@@ -1,0 +1,86 @@
+.container {
+    background-color: #fff;
+    width: 90%;
+    /* height: 90%; */
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 2%;
+    padding: 15px 0 15px 0;
+}
+
+.title {
+    margin-left: 3%;
+    font-size: 30px;
+    font-weight: 500;
+    color: #707070;
+}
+
+.table {
+    margin: 0 3% 0 3%;
+}
+
+.status {
+    padding: 2px 10px 2px 10px;
+    border-radius: 20px;
+    color: black;
+}
+
+.no {
+    background-color: #FFABB0;
+}
+
+.yes {
+    background-color: #B1E6C3;
+}
+
+.none {
+    background-color: #D5D5D5;
+}
+
+.add-user a {
+    list-style: none;
+    background-color: transparent;
+    text-decoration: none;
+    position: absolute;
+    right: 10%;
+    font-size: 24px;
+    margin-top: 5px;
+}
+
+.add-user a:hover .icon,
+.add-user a:hover {
+    color: #629eff;
+}
+
+td a {
+    list-style: none;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.view_info a {
+    color: #0062ff;
+}
+
+.delete a {
+    color: #ff2929;
+}
+
+.view_info a:hover .icon,
+.view_info a:hover {
+    color: #629eff;
+}
+
+.delete a:hover .icon,
+.delete a:hover {
+    color: #ff7d81;
+}
+
+@media screen and (max-width: 414px) {
+    .container {
+        width: 200%;
+    }
+}
